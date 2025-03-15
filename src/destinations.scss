@@ -1,5 +1,7 @@
 .destinations {
     overflow: hidden;
+    margin-bottom: 100px;
+
     &__container {}
     &__inner {
         text-align: center;
@@ -12,14 +14,58 @@
         font-size: 40px;
         font-weight: 500;
     }
+    &__button{
+        padding: 13px 31px;
+        margin-bottom: 5px;
+
+        a{
+            position: relative;
+            top: 4px;
+        }
+
+        a p{
+            display: inline-block;
+            position: relative;
+            bottom: 12px;
+            left: 3px;
+            font-size: 24px;
+        }
+      }
+
+      
   }
   .slide-bar {
     display: flex;
     gap: 60px;
     justify-content: center;
+    margin-bottom: 24px;
 
     img{
         border-radius: 20px ;
+        transition: all .55s ease;
     }
+
+    img:hover {
+        filter: brightness(.6);
+        transform: scale(1.02);
+      }
+
+
   }
   
+  .loader {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #F2785C80;
+    border-radius: 50%;
+}
+.active {
+    background-color: #F2785C;
+}
