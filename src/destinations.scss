@@ -1,0 +1,25 @@
+.destinations {
+    overflow: hidden;
+    &__container {}
+    &__inner {
+        text-align: center;
+    }
+    &__title {
+        text-align: center;
+        margin-bottom: 40px;
+        font-family: 'Red Hat Text',sans-serif;
+        color: var(--accent-color);
+        font-size: 40px;
+        font-weight: 500;
+    }
+  }
+  .slide-bar {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+
+    img{
+        border-radius: 20px ;
+    }
+  }
+  
