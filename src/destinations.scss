@@ -1,6 +1,6 @@
 .destinations {
     overflow: hidden;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 
     &__container {}
     &__inner {
@@ -14,23 +14,7 @@
         font-size: 40px;
         font-weight: 500;
     }
-    &__button{
-        padding: 13px 31px;
-        margin-bottom: 5px;
 
-        a{
-            position: relative;
-            top: 4px;
-        }
-
-        a p{
-            display: inline-block;
-            position: relative;
-            bottom: 12px;
-            left: 3px;
-            font-size: 24px;
-        }
-      }
 
       
   }
@@ -65,7 +49,18 @@
     height: 20px;
     background-color: #F2785C80;
     border-radius: 50%;
+    transition: .25s;
 }
+
+.circle:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px black;
+} 
+
+.circle:active{
+    transform: scale(1);
+} 
+
 .active {
     background-color: #F2785C;
 }

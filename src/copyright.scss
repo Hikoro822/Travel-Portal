@@ -1,0 +1,47 @@
+.copyright {
+    border: 1px solid #000;
+    height: 50px;
+    background-image: url('copyright-bg.png');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    &__container {
+        max-width: 728.96px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 300px;
+
+        p{
+            font-family: 'Red Hat Text', sans-serif;
+            font-weight: 500;
+            font-size: 17px;
+        }
+    }
+  }
+  .social {
+    display: flex;
+    gap: 21.4px;
+    font-size: 30px;
+  }
+
+  .social a{
+    transition: .55s;
+    display: block;
+  }
+  .social a:hover{
+    transform: scale(1.2);
+    opacity: .8;
+  }
+
+
+  
