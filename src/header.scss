@@ -1,59 +1,64 @@
 .header {
-    height: 1004px;
-    background-image: url('header-bg.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin-bottom: 80px;
+  height: 1004px;
+  background-image: url('header-bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 80px;
 
-    &__inner {
-        padding: 0 120px;
-        height: 90px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: #F2785CB2;
-        min-width: 1860px;
+  &__inner {
+    padding: 0 120px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F2785CB2;
+    min-width: 1860px;
+  }
+}
+
+.logo {
+  &__header {
+    display: flex;
+    gap: 6px;
+    font-family: 'Magra', sans-serif;
+    font-size: 32px;
+    color: #fff;
+
+    img {
+      position: relative;
+      bottom: 10px;
     }
   }
-  .logo {
-    &__header {
-        display: flex;
-        gap: 6px;
-        font-family: 'Magra', sans-serif;
-        font-size: 32px;
-        color: #fff;
+}
 
-        img{
-            position: relative;
-            bottom: 10px;
-        }
-    }
+.menu {
+  &__list {
+    display: flex;
+    gap: 42px;
+    order: 1;
   }
-  .menu {
-    &__list {
-        display: flex;
-        gap: 42px;
-        order: 1;
-    }
-    &__item {}
-    &__link {
-        font-family: 'Red Hat Text', sans-serif;
-        color: #fff;
-        font-weight: 500;
-        font-size: 16px;
-        display: block;
-        transition: .55s;
-    }
 
-    &__link:hover{
-        transform: scale(1.1);
-        opacity: .6;
-    }
-  }
-  .button-login {
-    padding: 10px 30px;
-    background-color: var(--button-bg-color);
-    cursor: pointer;
+  &__item {}
+
+  &__link {
+    font-family: 'Red Hat Text', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
     transition: .55s;
   }
+
+  &__link:hover {
+    transform: scale(1.1);
+    opacity: .6;
+  }
+}
+
+.button-login {
+  padding: 10px 30px;
+  background-color: var(--button-bg-color);
+  cursor: pointer;
+  transition: .55s;
+}

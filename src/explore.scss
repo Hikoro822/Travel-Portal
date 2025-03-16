@@ -1,6 +1,6 @@
 .explore {
     height: 100%;
-    
+
     display: flex;
     align-items: center;
     margin-left: 120px;
@@ -10,20 +10,22 @@
         height: 450px;
         color: #fff;
     }
-    &__inner {
 
-    }
+    &__inner {}
+
     &__title {
         font-family: 'Aleo', sans-serif;
         font-size: 80px;
         margin-bottom: 45px;
     }
+
     &__discription {
         font-family: 'Aleo', sans-serif;
         font-size: 20px;
         font-weight: 700;
         margin-bottom: 35px;
     }
+
     &__search {
         padding: 18px;
         display: flex;
@@ -32,14 +34,15 @@
         border-radius: 16px;
         background-color: #FFFFFFB2;
     }
+
     &__search-text {
         font-family: 'Aleo', sans-serif;
         color: var(--accent-color);
         padding: 14px 23px;
         font-size: 24px;
     }
+
     &__search-button {
         padding: 13.5px 32.5px;
     }
-  }
-  
+}
